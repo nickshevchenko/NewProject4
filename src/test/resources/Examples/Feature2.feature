@@ -1,7 +1,7 @@
-@ST_23489
+@ST_23491
 Feature: Relime workflow
 
-@SC_95822
+@SC_95826
 Scenario Outline: Scenario 1
 Given I am signed in Relime
 And I have a domain created
@@ -18,7 +18,7 @@ Here in the table I'd like to show how Example Table Descriptions are displayed 
 |John|Doe|john.doe@yahoo.co.uk|
 
 
-@SC_95823
+@SC_95827
 Scenario Outline: Scenario 2
 Given I am signed in Relime
 And I have a domain created
@@ -35,7 +35,7 @@ Here in the table I'd like to show how Example Table Descriptions are displayed 
 |John|Doe|john.doe@yahoo.co.uk|
 
 
-@SC_95824
+@SC_95828
 Scenario Outline: Scenario 3
 Given I am signed in Relime
 And I have a domain created
