@@ -1,19 +1,18 @@
-@ST_27877 @a
-Feature: 
+@a
+Feature:
+  @b @c
+  Scenario Outline:
+    Given <x>
 
-@SC_112522 @b @c
-Scenario Outline: 
-Given <x>
+    Examples:
+      | x |
+      | y |
 
-Examples: 
-|x|
-|y|
+  @d @e
+  Scenario Outline:
+    Given <m>
 
-
-@SC_112523 @d @e
-Scenario Outline: 
-Given <m>
-
-Examples: 
-|m|
-|n|
+    @f
+    Examples:
+      | m |
+      | n |
