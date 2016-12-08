@@ -1,6 +1,11 @@
 @ST_23490
 Feature: Scenario Outline
 
+@SC_116065
+Scenario: Scenario 2
+Given new issue
+Given one more issue
+
 @SC_95825
 Scenario Outline: Scenario 1
 Given I am signed in Relime
