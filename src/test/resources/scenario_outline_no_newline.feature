@@ -1,8 +1,10 @@
+@ST_27878
 Feature: Minimal Scenario Outline
 
+@SC_112524
 Scenario Outline: minimalistic
-    Given the <what>
+Given the <what>
 
-Examples:
-  | what       |
-  | minimalism |
+Examples: 
+|what|
+|minimalism|
